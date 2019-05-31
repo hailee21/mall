@@ -82,7 +82,7 @@ public class MemberService {
 	  System.out.println("[MemberService memberFindId] map : "+map);
 		  
 	  Member member = memberMapper.searchId(map);
-	  String subject = "아이디 찾기 결과입니다.";
+	  String subject = "아이디 찾기 결과입니다.....";
 	  
 	  emailServiceImpl.sendSimpleMessage(member, subject); 
 	  } 
